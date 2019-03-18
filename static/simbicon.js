@@ -32,15 +32,15 @@ $(document).ready(function() {
     var controllers = {};
 
     var simbiconParams = {
-      dt: .2,
+      dt: .3,
       cde: 0,
-      cdo: -2.,
+      cdo: -2.2,
       cve: -.2,
       cvo: 0,
-      tor: 0.1,
-      swhe: -.73,
+      tor: 0.,
+      swhe: -.4,
       swho: .7,
-      swke:  1.83,
+      swke:  1.1,
       swko: .05,
       stke: .05,
       stko: .1,

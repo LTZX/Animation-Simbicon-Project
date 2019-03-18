@@ -2,28 +2,19 @@
 
 #main {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
 }
 
 #simbicon {
     position: absolute;
-    width: 90vh;
-    height: 90vh;
-    left: 0vw;
-}
-
-#controlpanel {
-    position: absolute;
-    width: 100vw;
-    height: 10vh;
-    left: 0vw;
-    top: 0px;
+    width: 70vh;
+    height: 70vh;
+    left: 25%;
 }
 
 #simTime {
     position: absolute;
-    bottom: 5%;
+    top: 20%;
     left: 5%;
 }
-
