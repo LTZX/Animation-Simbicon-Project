@@ -1,7 +1,7 @@
 # ECS279 Final Project - Simbicon Study
 This is the final project for ECS 279 at UC Davis. The main focus of the project is about Simbicon. There are two parts included in this project.  
 
-The report is included as **report.pdf**. We have a screen record (**ScreenRecord.mp4**) for C++ re-implementation, and Demo for SimbiconJS extension. [Demo](https://ltzx.github.io.)
+The report is included as **report.pdf**. We have a screen record (**ScreenRecord.mp4**) for C++ re-implementation, and Demo for SimbiconJS extension. [Link](https://ltzx.github.io.)
 
 ## C++ Re-implementation
 All the codes in folder **RI-C++** is for the re-implementation of the functions that compute the torques applied at every stage of the simulation to drive the character to achieve desired pose, which involves deriving the torque using PD controller, as well as calibrating the torque on two hips.  
