@@ -1,14 +1,12 @@
-# SimbiconJS
-SimbiconJS is a javascript implementation of SIMple BIped locomotion CONtrol ([SIMBICON](http://www.cs.ubc.ca/~van/papers/Simbicon.htm)).
+# ECS279 Final Project - Simbicon Study
+This is the final project for ECS 279 at UC Davis. The main focus of the project is about Simbicon. There are two parts included in this project.  
 
-It uses my (work-in-progress) articulated character control and rendering library, [coach.js](https://github.com/mfirmin/coach.js/).
+## C++ Re-implementation
+All the codes in folder **RI-C++** is for the re-implementation of the functions that compute the torques applied at every stage of the simulation to drive the character to achieve desired pose, which involves deriving the torque using PD controller, as well as calibrating the torque on two hips.  
 
-The underlying physics engine is [Ammo.js](https://github.com/kripken/ammo.js/) (The JS version of [Bullet](http://bulletphysics.org/wordpress/))
+1. Download the code from Simbicon project [webpage](https://www.cs.ubc.ca/~van/simbicon_cef/index.html).  
+2. Replace the following files.  
 
-[Demo](http://mfirmin.github.io/SimbiconJS)
-
-# This project
-This is an extend version of SimbiconJS.
-It is a final project for ECS 279 at UC Davis.
-
-https://ltzx.github.io.
+## SimbiconJS Extension
+All the other files in this repo is for the extension of [SimbiconJS](https://github.com/mfirmin/SimbiconJS).  
+[Demo](https://ltzx.github.io.)
