@@ -11,10 +11,17 @@
     width: 70vh;
     height: 70vh;
     left: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #simTime {
     position: absolute;
     top: 20%;
     left: 5%;
+}
+
+.info {
+    color: #999999 !important;
 }
