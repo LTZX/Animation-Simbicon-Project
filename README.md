@@ -6,6 +6,12 @@ All the codes in folder **RI-C++** is for the re-implementation of the functions
 
 1. Download the code from Simbicon project [webpage](https://www.cs.ubc.ca/~van/simbicon_cef/index.html).  
 2. Replace the following files.  
+  - PoseController.h
+  - PoseController.cpp
+  - SimBiController.h
+  - SimBiController.cpp
+3. Set the AppGui as the start project in visual studio
+4. Build the solution and run.
 
 ## SimbiconJS Extension
 All the other files in this repo is for the extension of [SimbiconJS](https://github.com/mfirmin/SimbiconJS).  
